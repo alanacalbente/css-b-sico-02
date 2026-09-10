@@ -75,3 +75,61 @@ p{
     background: transparent;
     border: none;
 }
+
+/* *Responsividade* *\
+
+@media (max-width: 700px) {
+
+    header {
+        margin: 20px 16px;
+        display: flex;
+        justify-content: flex-end;
+        align-items: center;
+    }
+
+    .link-menu {
+        display: none;
+    }
+
+    .button-sign-up {
+        width: 100px;
+        height: 42px;
+        font-size: 14px;
+    }
+
+    main {
+        display: flex;
+        flex-direction: column; 
+    }
+
+    img {
+        order: 2;
+        margin: 40px auto 0 auto;
+        max-width: 90%;
+        height: auto;
+    }
+
+    div {
+        order: 1;
+        margin: 0 auto;
+        width: 90%;
+        text-align: center;
+    }
+
+    h1 {
+        font-size: 32px;
+        line-height: 42px;
+    }
+
+    p {
+        width: 100%;
+        font-size: 15px;
+        line-height: 26px;
+        margin-top: 24px;
+        margin-bottom: 30px;
+    }
+
+    .button-learn-more {
+        font-size: 16px;
+    }
+}
